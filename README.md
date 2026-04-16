@@ -14,6 +14,15 @@ across Denver using the 15-minute city framework.
 - Assigns weighted scores to prioritize less abundant but 
   critical services like healthcare
 
+Weights are assigned to each service category to account for relative 
+scarcity and importance — for example, healthcare facilities receive 
+higher weight than parks since they are less abundant but more critical.
+
+Buffer distances are fully configurable, allowing analysis at different 
+scales of accessibility (e.g., strict walkability vs. broader 
+neighborhood reach). Note: buffers measure Euclidean distance, so 
+smaller buffer values yield more accurate walkability estimates.
+
 ## Data Sources
 - [Denver Open Data Catalog](https://www.denvergov.org/opendata)
 - [CDPHE Open Catalog](https://cdphe.colorado.gov)
